@@ -1,0 +1,30 @@
+/*!---------- Custom Styles Here ----------*/
+#lang2 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -28px;
+}
+@media (max-width: 1024px) {
+  #lang2 {
+
+    top: 130px!important;
+      z-index: 9999;
+
+}
+}
+
+@media (max-width: 479px) {
+  #lang2 {
+
+    top: 173px!important;
+
+}
+}
+
+#local {
+    padding: 0;
+}
+#local li {
+    padding: 0.2em 0 ;
+}
